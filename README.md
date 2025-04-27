@@ -14,4 +14,6 @@ Check and clean the uploaded component model files.
 - Check the validation of the ID
 - Clean the duplicate and sort the ID.
 
-
+### faiss.ipynb
+Use FAISS+ HSNW to speed up the search between embedding vectors.
+Test with the VOC data banking77 from Hugging Face https://huggingface.co/datasets/PolyAI/banking77
