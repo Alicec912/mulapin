@@ -109,7 +109,6 @@ def process_uploaded_file(file_path):
     # Step 4: Save cleaned data
     cleaned_file_path = file_path.replace(".csv", "_cleaned.csv")
     cleaned_df.to_csv(cleaned_file_path, index=False)
-
     return
 
 
